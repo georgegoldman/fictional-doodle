@@ -21,6 +21,9 @@ This repository demonstrates how to detect keyboard events in a Linux environmen
 
 The C program detects keyboard events using the Linux input event interface. It is compiled into a shared library to be used in a Flutter application.
 
+
+#### Header File (`dx.h`)
+
 ```c
 #ifndef KEYBOARD_EVENT_H
 #define KEYBOARD_EVENT_H
@@ -41,6 +44,12 @@ void set_event_check_interval(int interval);
 
 #endif // KEYBOARD_EVENT_H
 
+```
+
+### Source File (dx.c)
+
+
+```
 Source File (lib/keyboard_event.c)
 
 #include "keyboard_event.h"
