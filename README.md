@@ -1,4 +1,4 @@
-# Keyboard Event Detection in Linux with Flutter and Dart FFI
+# Keyboard Event Detection in Linux with C, Flutter and Dart FFI
 
 This repository demonstrates how to detect keyboard events in a Linux environment using C, create a shared library from this C code, and integrate it with a Flutter application using Dart FFI. It also includes functionality to control the interval for checking keyboard events from the Dart side.
 
